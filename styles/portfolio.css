@@ -72,6 +72,11 @@ nav ul li a{
     font-size: 85px;
     
 }
+.banner-description{
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 50%;
+}
 .banner-profile-pic{
     width: 580px;
     margin-right: 38px;
