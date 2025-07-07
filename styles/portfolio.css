@@ -22,6 +22,22 @@
     border-radius: 5px;
     border-style: none;
 }
+
+/* Section Style */
+
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 18;
+    color: #757575;
+}
+
+/* Header style */
+
 .header{
     background-image: url('../images/developer.png'),url('../images/header_bg.png');
     background-repeat: no-repeat;
@@ -75,6 +91,7 @@ nav ul li a{
 .banner-description{
     font-weight: 400;
     font-size: 18px;
+    color: #757575;
     opacity: 50%;
 }
 .banner-profile-pic{
