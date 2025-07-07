@@ -22,6 +22,12 @@
     border-radius: 5px;
     border-style: none;
 }
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom5 right;
+    
+}
 /* Nav Styles */
 nav{
     display: flex;
@@ -45,4 +51,28 @@ nav ul li a{
     text-decoration: none;
     font-size: 20px;
     color: #474747;
+}
+
+/* Banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+   max-width: 580px;
+}
+.banner-greetings{
+    font-weight: 600;
+    font-size: 45px;
+    opacity: 50%;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    
+}
+.banner-profile-pic{
+    width: 580px;
+    margin-right: 38px;
 }
