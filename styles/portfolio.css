@@ -6,7 +6,11 @@
   font-variation-settings:
     "wdth" 100;
 }
-/* Shared color */
+
+/* Shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary-color{
      color: #FD6E0A;
 }
