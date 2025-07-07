@@ -37,6 +37,7 @@
 .section-description{
     font-weight: 400;
     font-size: 18;
+    gap: 30px;
     color: #757575;
 }
 
@@ -101,4 +102,30 @@ nav ul li a{
 .banner-profile-pic{
     width: 580px;
     margin-right: 38px;
+}
+
+/* Main Style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+    box-shadow: 10px 10px 15px tomato;
+}
+.about-footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.item-title{
+    color: #757575;
+}
+.item-desription{
+    font-weight: bold;
 }
