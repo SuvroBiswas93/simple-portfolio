@@ -33,13 +33,14 @@
     font-weight: bold;
     font-size: 35px;
     color: #181818;
-    margin: 130px;
+    margin: 10px;
 }
 .section-description{
     font-weight: 400;
     font-size: 18;
     gap: 30px;
     color: #757575;
+    padding: 10px 60px;
 }
 .text-center{
     text-align: center;
@@ -94,7 +95,7 @@ nav ul li a{
 }
 .banner-title{
     font-weight: 700;
-    font-size: 85px;
+    font-size: 60px;
     
 }
 .banner-description{
@@ -120,8 +121,13 @@ main section{
 
 /* About Style */
 .about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     border-radius: 10px;
-    padding: 130px 150px;
+    width: 1140px;
+    height: 550px;
     text-align: center;
     box-shadow: 10px 10px 15px tomato;
 }
@@ -198,4 +204,7 @@ footer input[type ="text"], footer input[type ="email"], footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+}
+form{
+    margin-bottom: 30px;
 }
